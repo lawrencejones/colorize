@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/LawrenceJones/colorize/issues"
   },
-  "homepage": "https://github.com/LawrenceJones/colorize"
+  "homepage": "https://github.com/LawrenceJones/colorize",
+  "dependencies": {
+    "coffee-script": "^1.7.1"
+  }
 }
