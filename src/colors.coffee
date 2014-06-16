@@ -23,7 +23,7 @@
 
 })
 
-colorize = (_String) ->
+module.exports = colorize = (_String) ->
 
   # Configures for colors and styles
   stylize = (str, style) ->
