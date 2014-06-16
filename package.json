@@ -2,7 +2,7 @@
   "name": "colorize",
   "version": "0.0.0",
   "description": "Semantic coloring via String proto manipulation",
-  "main": "color.coffee",
+  "main": "bin/colors",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
