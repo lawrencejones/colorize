@@ -1,0 +1,23 @@
+{
+  "name": "colorize",
+  "version": "0.0.0",
+  "description": "Semantic coloring via String proto manipulation",
+  "main": "color.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LawrenceJones/colorize.git"
+  },
+  "keywords": [
+    "color",
+    "node"
+  ],
+  "author": "Lawrence Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LawrenceJones/colorize/issues"
+  },
+  "homepage": "https://github.com/LawrenceJones/colorize"
+}
