@@ -13,7 +13,7 @@
   underline: [4, 24],   inverse: [7, 27]
 
   # Grayscale
-  white: ['01;38;5;271', 0],    grey: ['01;38;5;251', 0]
+  white: ['01;38;5;271', 0],    gray: ['01;38;5;251', 0]
   black: ['01;38;5;232', 0]
 
   # Colors
@@ -23,7 +23,7 @@
 
 })
 
-module.exports = colorize = (_String) ->
+colorize = (_String) ->
 
   # Configures for colors and styles
   stylize = (str, style) ->
@@ -34,3 +34,5 @@ module.exports = colorize = (_String) ->
   (Object.keys styles).map (style) ->
     _String::__defineGetter__(style, -> stylize @, style)# }}}
 
+colorize.styles = styles
+module.exports = colorize

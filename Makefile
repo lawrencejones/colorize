@@ -20,6 +20,10 @@ all: $(LIB_DIR) $(LIB)
 $(LIB_DIR):
 	@mkdir $@
 
+# Prints out all of the available styles
+check:
+	@-$(COFFEE) ./src/check.coffee
+
 # Phony clean target
 clean:
 	@-echo "Cleaning *.js files"
