@@ -1,6 +1,6 @@
 {
   "name": "colorize",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Semantic coloring via String proto manipulation",
   "main": "bin/colors",
   "scripts": {
