@@ -12,3 +12,7 @@ console.log 'this is red'.red
 console.log 'and I am blue'.blue
 console.log 'we can also stack styles'.orange.bold
 ```
+
+Resultant Output
+
+![output.png](https://raw.githubusercontent.com/LawrenceJones/colorize/master/img/example.png)
